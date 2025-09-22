@@ -39,3 +39,26 @@
 
 # debug information files
 *.dwo
+
+
+# Build
+/build/
+/cmake-build-debug/
+/CMakeFiles/
+/CMakeCache.txt
+/*.cbp
+/*.sln
+/*.vcxproj*
+/*.user
+*.o
+*.obj
+*.exe
+*.log
+
+# CLion
+.idea/
+*.iml
+
+# OS
+.DS_Store
+Thumbs.db
