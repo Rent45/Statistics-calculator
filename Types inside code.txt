@@ -1,0 +1,7 @@
+Find the probability that the mean value of the feature in a sample (of size TYPE) doesn't differ from the population one (knowing that its standard deviation is TYPE) by more than the margin of error TYPE.
+Find the confidence interval for a feature, given that in the sample of size TYPE we found the mean value TYPE and standard deviation TYPE, with confidence level TYPE.  (Use the Student's t-distribution since the population standard deviation is unknown)
+Find the least sample size to get the difference of means between population and sample, given that the standard deviation of the feature in the population is TYPE, within the margin of error TYPE with the confidence level TYPE.
+Find: What is our null hypothesis and whether we can reject it? Given the sample of size TYPE, we want to check whether the population proportion p is SIGN to TYPE if we found the sample proportion of TYPE. With the confidence level TYPE.
+Find the probability that the percentage of individuals having a feature in a sample (of size TYPE) doesn't differ from the proportion one = TYPE by more than the margin of error (TYPE).
+Find the confidence interval for the percentage of individuals having the feature in population, given that in the sample of size TYPE we found the percentage of individuals having the feature to be TYPE, with confidence level TYPE.
+Find the least sample size to get the percentage of individuals having the feature in a sample from the proportion TYPE in the population within the margin of error TYPE with the confidence level TYPE.

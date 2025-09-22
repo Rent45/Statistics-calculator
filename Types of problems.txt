@@ -1,0 +1,32 @@
+This program was developed to solve several types of statistical problems, the z-test in particular (type 4).
+The types of problems have subtypes.
+This program can also be used to test and improve your skills at solving the tasks.
+
+Here are the types:
+Type 1:
+Given: the feature's standard deviation, sample size, margin of error.
+Find: probability that the mean value of the feature in a sample doesn't differ from the population one by more than the margin of error.
+Given: percentage of individuals with a specific feature in the population, sample size, margin of error.
+Find: probability that the percentage of individuals having the feature in a sample doesn't differ from the proportion of ones in the population by more than the margin of error. (confidence level)
+Type 2:
+Given: mean value of a specific feature in the sample, sample size, standard deviation of the feature in the sample, confidence level.
+Find: confidence interval. (Use the Student's t-distribution since the population standard deviation is unknown)
+Given: sample size, percentage of individuals having the feature in the sample, confidence level.
+Find: confidence interval.
+Type 3:
+Given: standard deviation of a specific feature in the population, margin of error, confidence level.
+Find: least sample size to get the difference of means between population and sample within the margin of error with the confidence level.
+Given: percentage of individuals with a specific feature in the population, margin of error, confidence level.
+Find: least sample size to get the percentage of individuals having the feature in a sample within the margin of error from the proportion in the population with the confidence level.
+Type 4:
+Given: hypothesis that the percentage of individuals with a specific feature in the population p (=, >= or <=) than the given value, sample size, such percentage in the sample, confidence level.
+Find: What is our null hypothesis and whether we can reject it with the confidence level?
+Type 5: (Use the Chi-square test)
+Given: population and its 2 properties, one can be either categorical or quantitative and the other must be quantitive, the confidence level.
+A two-way table is given where the properties are independent variables and the number of individuals with the combination of the properties.
+Find: Can we state with the confidence level that the properties are dependent (correlated)?
+Given: 2 data types, one can be either categorical or quantitative and the other must be quantititave, the confidence level.
+A row with one set of data is given and then a row with the other. If both rows are quantitative, the first one must be actual and the second one has to be the expected (the model).
+Find: Can we state with the confidence level that the data is dependent (correlated)?
+
+Assume that all the randomness, independence of sampling etc. conditions are satisfied. The correction factor is not needed.
